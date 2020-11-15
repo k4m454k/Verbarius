@@ -1,5 +1,7 @@
 # Verbarius Clock Russian prototype algorithm
 
+## Example:
+
 ```
     половина двенадцатого
     тридцать одна минута двенадцатого
@@ -20,8 +22,8 @@
 
 `pip install verbarius`
 
-## Usage:
 
+## Usage:
 
 ```
 >>> from verbarius import Verbarius

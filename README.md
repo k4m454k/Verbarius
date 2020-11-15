@@ -22,9 +22,10 @@
 
 ## Usage:
 
+
 ```
 >>> from verbarius import Verbarius
 >>> v = Verbarius()
->>> v.get_time_string(3,10)
+>>> v.get_time_string(hour=3, minute=10)
 'десять минут четвёртого'
 ```

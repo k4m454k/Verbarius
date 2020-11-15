@@ -29,8 +29,6 @@ class Verbarius:
         """
         Prints verbarius time string.
 
-        If the argument 'additional' is passed, then it is appended after the main info.
-
         Parameters
         ----------
         hour: int

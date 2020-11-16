@@ -5,13 +5,13 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="verbarius",
-    version="0.5",
+    version="0.6",
     author="Vadim Apenko",
     author_email="k4m454k@gmail.com",
     description="VerbariusRus",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/k4m454k/VerbariusRus",
+    url="https://github.com/k4m454k/Verbarius",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3.8",

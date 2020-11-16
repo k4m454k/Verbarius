@@ -28,7 +28,7 @@ hours_temps = {
 }
 
 
-base_temps = {
+minutes_temps = {
     0: ["$current_hour", "$current_hour ровно"],
     1: ["одна минута $future_hour", "$current_hour $declension одна минута", "без пятидесяти девяти $future_hour_std"],
     2: ["две минуты $future_hour", "$current_hour $declension две минуты"],

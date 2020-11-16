@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="verbarius",
-    version="0.4",
+    version="0.5",
     author="Vadim Apenko",
     author_email="k4m454k@gmail.com",
     description="VerbariusRus",

@@ -22,8 +22,23 @@ Inspired by [Verbarius clock](https://store.artlebedev.ru/electronics/devices/ve
     одна минута шестого
 ```
 
+### Ukrainian
+
+```
+    двадцять шість хвилин по дванадцятій
+    двадцять сім хвилин по дванадцятій
+    дванадцята година двадцять вісім хвилин
+    дванадцята година двадцять дев'ять хвилин
+    пів на першу
+    дванадцята година тридцять одна хвилина
+    двадцять вісім хвилин до першої
+    дванадцята година тридцять три хвилини
+    двадцять шість хвилин до першої
+```
+
 ## Support languages:
-- Russian
+- Russian (ru)
+- Ukrainian (ua)
 
 
 ## Install:
@@ -34,8 +49,9 @@ Inspired by [Verbarius clock](https://store.artlebedev.ru/electronics/devices/ve
 ## Usage:
 
 ```
->>> from verbarius import Verbarius
->>> v = Verbarius()
+>>> from verbarius import Verbarius, ru
+>>> v = Verbarius(language=ru)
 >>> v.get_time_string(hour=3, minute=10)
 'десять минут четвёртого'
 ```
+

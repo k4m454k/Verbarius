@@ -1,5 +1,5 @@
 from typing import Dict, List
-from verbarius import string_temps_ru
+from verbarius import string_temps_ru, string_temps_ua
 
 
 class BaseLanguage:
@@ -16,4 +16,5 @@ class BaseLanguage:
         return self.minutes_temp_dict
 
 
-russian = BaseLanguage(string_temps_ru.minutes_temps, string_temps_ru.hours_temps)
+ru = BaseLanguage(string_temps_ru.minutes_temps, string_temps_ru.hours_temps)
+ua = BaseLanguage(string_temps_ua.minutes_temps, string_temps_ua.hours_temps)

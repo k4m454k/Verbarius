@@ -1,6 +1,6 @@
 from random import choice
 from string import Template
-from verbarius.languages import BaseLanguage, russian
+from verbarius.languages import BaseLanguage, ru
 
 
 class Verbarius:
@@ -19,7 +19,7 @@ class Verbarius:
         get_time_string(hour: str, minute: str):
             Prints the person's name and age.
         """
-    def __init__(self, language: BaseLanguage = russian):
+    def __init__(self, language: BaseLanguage = ru):
         self.language = language
 
     def get_time_string(self, hour: int, minute: int) -> str:

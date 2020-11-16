@@ -1,5 +1,7 @@
 # Verbarius Clock Russian prototype algorithm
 
+Inspired by [Verbarius clock](https://store.artlebedev.ru/electronics/devices/verbarius/)
+
 ## Example:
 
 ### Russian
